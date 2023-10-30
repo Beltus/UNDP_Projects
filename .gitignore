@@ -1,0 +1,19 @@
+# Gradio environment
+gradio_env/
+
+# Docker
+*.env
+
+# Flagged (if not meant for version control)
+flagged/
+
+# IDEs and Editors
+.vscode/
+.idea/
+
+# Miscellaneous
+*.log
+*.swp
+*.bak
+*.DS_Store
+

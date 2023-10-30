@@ -1,0 +1,11 @@
+gradio==3.50.2
+
+pandas
+requests
+vaderSentiment
+plotly
+nltk
+pandas
+
+
+
