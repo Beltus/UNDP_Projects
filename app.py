@@ -56,7 +56,7 @@ def create_pie_chart(dataframe):
     values = dataframe["sentiment"].value_counts()
     labels = dataframe["sentiment"].unique().tolist()
     cdict = {'Positive': '#79DE79', 'Negative': '#FB6962', 'Neutral': '#A8E4EF'}
-    fig = px.pie(values=values, names=labels, color=labels, title='Sentiment of Tweets', color_discrete_map=cdict, width=600, height=400)
+    fig = px.pie(values=values, names=labels, color=labels, title='Sentiment of News Articles', color_discrete_map=cdict, width=600, height=400)
     fig.update_traces(textposition='inside', textinfo='percent+label', insidetextorientation='radial', hovertemplate="Number of Tweets: %{value}")
     return fig
 
